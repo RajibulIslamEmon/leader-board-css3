@@ -29,6 +29,55 @@ hr {
     margin-bottom: 27px;
 }
 
+/*--------------------- 
+  navigation styles 
+--------------------*/
+.navigation {
+    border: 1px solid #562EFF;
+    background-color: #562EFF;
+    height: 70px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.idea {
+    color: white;
+    margin-right: 700px;
+    position: relative;
+
+}
+
+.idea img {
+    height: 51px;
+    width: 41px;
+
+
+}
+
+.idea span {
+    margin-left: 15px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 15px;
+    position: relative;
+    right: 110px;
+}
+
+.profile-icon {
+    position: relative;
+    right: 100px;
+}
+
 /* top players style */
 .top-players {
     margin-bottom: 30px;
@@ -106,8 +155,9 @@ hr {
 }
 
 .course {
-    box-shadow: 5px 5px 5px #9f9f9f38;
+    box-shadow: 5px 5px 5px 5px #9f9f9f38;
     padding: 15px;
+    border-radius: 10px;
 }
 
 .course .course-banner img {
